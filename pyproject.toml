@@ -7,6 +7,8 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.10"
+pyteal = "^0.20.1"
+beaker-pyteal = "^0.4.0"
 
 [tool.poetry.group.dev.dependencies]
 black = {extras = ["d"], version = "^22.10.0"}
@@ -59,10 +61,10 @@ suppress-none-returning = true
 line-length = 120
 
 [tool.pytest.ini_options]
-pythonpath = ["src", "tests"]
+pythonpath = ["smart_contracts"]
 
 [tool.mypy]
-files = "src/"
+files = "smart_contracts/"
 python_version = "3.10"
 warn_unused_ignores = true
 warn_redundant_casts = true

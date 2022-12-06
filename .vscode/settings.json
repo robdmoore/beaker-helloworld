@@ -22,7 +22,7 @@
   //    However if you symlink Scripts -> bin it does work!
   //    If you are on Windows and haven't done that then it's OK it will just prompt you to select a Python interpreter.
   "python.defaultInterpreterPath": "${workspaceFolder}/.venv/bin/python",
-  "python.analysis.extraPaths": ["${workspaceFolder}/src"],
+  "python.analysis.extraPaths": ["${workspaceFolder}/smart_contracts"],
   "python.formatting.provider": "black",
   "[python]": {
     // https://dev.to/eegli/quick-guide-to-python-formatting-in-vs-code-2040
